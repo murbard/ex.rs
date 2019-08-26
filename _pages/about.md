@@ -23,7 +23,7 @@ comments: false
 	</ul>	 
 </li>
 <li>Short-bio for conferences
-<p>Arthur Breitman is an early architect of the Tezos protocol. Prior to becoming involved in Tezos full time, he worked at X and Waymo on self-driving cars. In his earlier carrier, he worked as a quantitative analyst at Goldman Sachs and Morgan Stanley. Arthur graduated from the École polytechnique and holds a MS in financial mathematics from the Courant Institute at NYU.</p>
+<p>Arthur Breitman is an early architect of the Tezos protocol. Prior to becoming involved in Tezos full time, he worked at X and Waymo on self-driving cars. In his earlier carreer, he worked as a quantitative analyst at Goldman Sachs and Morgan Stanley. Arthur graduated from the École polytechnique and holds a MS in financial mathematics from the Courant Institute at NYU.</p>
 </li>
 
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/portrait_square_hi_res.jpeg" alt="square black and white headshot" /></p>
