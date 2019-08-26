@@ -90,10 +90,10 @@ My suggestions on how to take it further would be:
 
 1. Find more “theorems” about the cost of moving from one stack to another which can be used in the A* heuristic.
 
-1. Use sub-optimal search. If you can guarantee bounds on the error of your theorems, you can guarantee bounds on how close to optimal the solution is.
+2. Use sub-optimal search. If you can guarantee bounds on the error of your theorems, you can guarantee bounds on how close to optimal the solution is.
 
-1. Plug the problem into traditional constrained optimization solver.
+3. Plug the problem into traditional constrained optimization solver.
 
-1. Instead of blindly looking for a solution, start with a known solution (following the approach outlined earlier) and search for provably correct improvements to that solution.
+4. Instead of blindly looking for a solution, start with a known solution (following the approach outlined earlier) and search for provably correct improvements to that solution.
 
-1. Mathematically formalize the problem, and derive an efficient algorithm for computing the optimal solution by reasoning algebraically about it, not unlike the mathematization of the Rubik’s cube through group theory. I give this a 10% chance of panning out, but it’s high reward if it does.
+5. Mathematically formalize the problem, and derive an efficient algorithm for computing the optimal solution by reasoning algebraically about it, not unlike the mathematization of the Rubik’s cube through group theory. I give this a 10% chance of panning out, but it’s high reward if it does.
