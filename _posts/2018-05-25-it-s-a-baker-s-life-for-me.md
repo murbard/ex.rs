@@ -3,7 +3,7 @@ layout: post
 title: "It’s a baker’s life for me: being a Tezos validator"
 author: arthurb
 date: 2018-05-25 00:00:00 +0000
-categories: tezos
+categories: tezos baking
 image: assets/images/fresh_bread.jpeg
 ---
 
