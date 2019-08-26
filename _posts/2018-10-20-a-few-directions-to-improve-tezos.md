@@ -15,7 +15,7 @@ Tooling, higher-level languages, second layer scaling solutions, and other eleme
 
 Users running nodes improve the security of the network by making it harder for a malicious coalition to create social consensus around a departure from the protocol. Thus, it’s important that the requirement for running a node remain reasonable. At a minimum, they should be bounded, which means nodes should implement garbage collection for past states and past blocks. Keeping a full history of blocks is laudable, some people should do it, some people will doubtlessly do it, but it doesn’t have to be done by everyone. It certainly shouldn’t be held up as a sine qua non that would deter people from running nodes.
 
-![Another kind of node](/blog/assets/images/other_node.jpeg)*Another kind of node*
+![Another kind of node](/assets/images/other_node.jpeg)*Another kind of node*
 
 The node should also be able to synchronize directly by downloading the context from a known point. Implementing a light client that relies on a known context hash but requires Merkle proofs when it queries parts of the context would also be of interest, but I’m departing from protocol related matters here.
 
@@ -23,7 +23,7 @@ The node should also be able to synchronize directly by downloading the context 
 
 The “liquid” delegation model with bonding seems like a successful recipe so far, I think it’s important to preserve it. Most of the proof-of-stake machinery in Tezos is roll-tracking and randomness generation. This ends up producing periodic random seeds and a set of 80,000 or so rolls. The combination of the two is a blank canvas for consensus.
 
-![Yay, baking!](/blog/assets/images/yay_baking.jpeg)*Yay, baking!*
+![Yay, baking!](/assets/images/yay_baking.jpeg)*Yay, baking!*
 
 ### Better randomness
 
@@ -43,7 +43,7 @@ From the outside, the protocol would look very similar to the current one: block
 
 ## Privacy
 
-![Sealed enveloppes are better than postcards](/blog/assets/images/sealed_enveloppe.jpeg)*Sealed enveloppes are better than postcards*
+![Sealed enveloppes are better than postcards](/assets/images/sealed_enveloppe.jpeg)*Sealed enveloppes are better than postcards*
 
 Crypto-currencies typically require transactions to be broadcast publicly to the entire world, which is obviously problematic for privacy. No business wants the entirety of its transactions known to its competitors (and of course privacy doesn’t dispense you — or prevent you — from having to open your books should you be required to).
 
@@ -55,7 +55,7 @@ There are many exciting developments in the space of zero-knowledge proofs (STAR
 
 ## Governance
 
-![Althing in Thingvellir](/blog/assets/images/althing.jpeg)*Althing in Thingvellir*
+![Althing in Thingvellir](/assets/images/althing.jpeg)*Althing in Thingvellir*
 
 ### Vote
 

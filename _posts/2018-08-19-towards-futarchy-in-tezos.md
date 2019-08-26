@@ -24,7 +24,7 @@ The term prediction market is typically applied broadly to markets whose payoff 
 
 Financial instruments aren’t just traded in a zero sum speculative game. For instance, stocks are held for investment purposes, commodity futures can be bought by producers and consumers to hedge their exposure. Contracts whose payoff is based on the temperature do exist and are traded on the CME, albeit thinly. They can help electric utilities manage costs by predicting air conditioner use, or they can help landlords manage the variability of heating costs. Sport bets on the world cup also have an intrinsic utility: they make the games more exciting to watch!
 
-![A pretty stock picture of some order book and candle graph](/blog/assets/images/stock_graph.jpeg)*A pretty stock picture of some order book and candle graph*
+![A pretty stock picture of some order book and candle graph](/assets/images/stock_graph.jpeg)*A pretty stock picture of some order book and candle graph*
 
 Interestingly, financial economics teaches us that this demand (investment, hedging, insurance, entertainment) is required for the markets to exist among rational actors. This principle is called the [no-trade theorem](https://en.wikipedia.org/wiki/No-trade_theorem).
 
@@ -68,11 +68,11 @@ A simple, elegant, and intrinsic metric [proposed by Ralph Merkle in 2016](http:
 
 Extrinsic metrics are also possible, but they require an oracle to provide “off-chain” information. This oracle could be centralized, for instance, if Tezos participants wanted to maximize the number of pandas in existence, they could entrust the WWF to provide this data to the blockchain. If they wanted to maximize adoption, they could task several auditors to estimate the number of individual participants. However, if the metric is more easily publicly verifiable, they could rely on a decentralized oracle to import that number into the system.
 
-![[The oracle at Delphi](https://en.wikipedia.org/wiki/Pythia)](/blog/assets/images/oracle_delphi.jpeg)*[The oracle at Delphi](https://en.wikipedia.org/wiki/Pythia)*
+![[The oracle at Delphi](https://en.wikipedia.org/wiki/Pythia)](/assets/images/oracle_delphi.jpeg)*[The oracle at Delphi](https://en.wikipedia.org/wiki/Pythia)*
 
 A general technique, for the oracle to propose a number, is to run a game where participants can place hidden bids onto a candidate number. After the bids are placed they are revealed and the tokens are redistributed according to a formula which rewards proximity to the median, for instance something proportional to 1/(1 +(choice-median)²). If the true value isn’t particularly controversial, a natural Schelling point in this game is to play one’s true estimate.
 
-![](/blog/assets/images/panda_median.jpeg)
+![](/assets/images/panda_median.jpeg)
 
 A run of a decentralized oracle enabling panda-centric futarchy
 
@@ -80,7 +80,7 @@ There are known issues with this approach. In particular, a wealthy participant 
 
 Alternatively a body could be elected to devise and compute a metric, with provisions to override their decision.
 
-![Meet Leo, the panda.](/blog/assets/images/leo_panda.jpeg)*Meet Leo, the panda.*
+![Meet Leo, the panda.](/assets/images/leo_panda.jpeg)*Meet Leo, the panda.*
 
 ## Measuring expected outcomes
 
@@ -106,7 +106,7 @@ Continuous markets are useful for traders who want the convenience of buying and
 
 While this has the benefit of simplicity, it carries a serious drawback: traders cannot observe and react to mispricings. In a continuous market, mispricings can attract the attention of traders with superior information who come in and correct the deviation. Furthermore, a naive single auction does not let traders express beliefs about the relationship between various events being bet on. Doing so requires the complexity of combinatorial market. A continuous market does not depend on combinatorial bets being available, as those bets can be placed in real time, one leg at a time.
 
-![Microcosm of London — Auction room, Chritsie’s](/blog/assets/images/microcosm_of_london.jpeg)*Microcosm of London — Auction room, Chritsie’s*
+![Microcosm of London — Auction room, Chritsie’s](/assets/images/microcosm_of_london.jpeg)*Microcosm of London — Auction room, Chritsie’s*
 
 Ultimately, finding the best structure is an empirical question. In the interest of concreteness, as a first shot, a reasonable structure would be to hold five, one hour long, batch auctions over a period of two weeks. This is assuming there are at most 10 proposals being considered simultaneously. This is unlikely to be optimal, but it’s also unlikely that further research would yield radically better outcomes.
 
