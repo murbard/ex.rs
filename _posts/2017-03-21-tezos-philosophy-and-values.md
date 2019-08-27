@@ -4,6 +4,7 @@ title: "Tezos: Philosophy and Values"
 author: arthurb
 date: 2017-03-21 00:00:00 +0000
 categories: tezos
+featured: true
 image: assets/images/school_of_athens.jpeg
 ---
 
