@@ -50,7 +50,7 @@ A widespread fallacy is that there is something special about a supply cap that 
 
 Someone holding a cryptocurrency may thus derive value merely from holding it. Holding _is_ using. The value extracted from holding is generally referred to as a [convenience yield](https://en.wikipedia.org/wiki/Convenience_yield). The convenience yield explains why commodity futures can exhibit [backwardation](https://en.wikipedia.org/wiki/Normal_backwardation). Lo and behold, the Bitcoin futures market has indeed exhibited backwardation. In plain English, it means people are willing to pay for the privilege of holding a coin as opposed to holding an instrument that will deliver a coin to them in the future, showing that people derive value from merely holding that coin.
 
-What does this have to do with supply caps? A lot actually! The existence of a [convenience yield](https://www.investopedia.com/terms/c/convenienceyield.asp) is why a cryptocurrency with an unlimited future supply can have a non-zero value. The relevant metric, from an economics point of view,T is not the total supply that will ever created, but the time discounted, convenience yield adjusted total supply, the “effective supply”. So long as the inflation rate is lower than the convenience yield and the time discount, the effective supply is **finite**. In simpler terms, over a period of time, whatever may be lost to inflation when holding a cryptocurrency can be offset by the convenience yield. 
+What does this have to do with supply caps? A lot actually! The existence of a [convenience yield](https://www.investopedia.com/terms/c/convenienceyield.asp) is why a cryptocurrency with an unlimited future supply can have a non-zero value. The relevant metric, from an economics point of view, is not the total supply that will ever created, but the time discounted, convenience yield adjusted total supply, the “effective supply”. So long as the inflation rate is lower than the convenience yield and the time discount, the effective supply is **finite**. In simpler terms, over a period of time, whatever may be lost to inflation when holding a cryptocurrency can be offset by the convenience yield. 
 
 If you are still unconvinced, consider a silly, yet informative example: suppose that, at its inception, Bitcoin had been set to inflate its supply by 1 satoshi a year after reaching 21 million. The total supply would now be unbounded. Would this have materially affected Bitcoin’s value proposition by a tiny bit, or would this have categorically changed it?
 
@@ -83,7 +83,7 @@ This is not without its drawbacks! Among several, it greatly complicates the mat
 
 It should be clear by now that, to a large extent, non-dilutive inflation is economically no different from respecting a supply cap. The number of coins may increase, but no one needs to see their fraction meaningfully reduced. Another way to look at it is that, in both cases, there is a limit on the number of coins that can be mined. That limits just happens to be 0 for proof-of-stake, because there is no mining.
 
-Despite all of the above, what if we were to on a supply cap? How could it be instantiated? Approaches fall into two categories: yolo, and demurrage.
+Despite all of the above, what if we were to insist on a supply cap anyway? How could it be instantiated? Approaches fall into two categories: yolo, and demurrage.
 
 
 ### Yolo
