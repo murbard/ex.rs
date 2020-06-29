@@ -14,6 +14,7 @@ comments: false
 	<ul>
 		<li><a href="https://twitter.com/arthurb">Twitter</a></li>
 		<li><a href="https://github.com/murbard">Github</a></li>
+		<li>I do not have a LinkedIn profile, if someone contacts you on LinkedIn claiming to be me, they are an impostor</li>
 	</ul>
 </li>
 <li>Contact
