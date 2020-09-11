@@ -53,7 +53,7 @@ Specifically, block space is limited for a few reasons:
 
 3. Storing blocks takes disk space, which is why we might want to care about the average block space.
 
-Right out of the bat, we can eliminate consideration number three. It's not that the size of disk space doesn't matter, it's just that constraint number 1 is a much stronger constraint. Assume 2MB blocks every 5 seconds, that would come to 1TB a month. A 1TB hard drive comes to less than $30. This doesn't need to be fast storage either, as the blocks are stored for archival purposes only and are only ever accessed by new peers requesting the chain's history. The storage cost for old blocks is largely dominated by the cost of the Internet connection or the cost of computing.
+Right off the bat, we can eliminate consideration number three. It's not that the size of disk space doesn't matter, it's just that constraint number 1 is a much stronger constraint. Assume 2MB blocks every 5 seconds, that would come to 1TB a month. A 1TB hard drive comes to less than $30. This doesn't need to be fast storage either, as the blocks are stored for archival purposes only and are only ever accessed by new peers requesting the chain's history. The storage cost for old blocks is largely dominated by the cost of the Internet connection or the cost of computing.
 
 Consideration number one places a tight constraint on the maximum block space, so any elasticity we might find would come reducing the block space below this maximum.
 
