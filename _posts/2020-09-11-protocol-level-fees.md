@@ -33,6 +33,8 @@ There are a few important corollaries that follow from properly understanding fe
 
 # Fee volatility and inelasticity
 
+![Rubber band](/assets/images/rubber_band.jpg)
+
 Much of the discussion around fee markets comes from the volatility of fees. When the demand for transaction surges and meets an (almost[^2]) perfectly inelastic block space, fees surge. 
 
 Historically, “Cryptokitties” has been the canonical example of this phenomenon. A short term spike of interest for a feline phenomenon can render the chain prohibitively expensive for everyone else to use.
