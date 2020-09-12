@@ -21,7 +21,7 @@ This default behavior is often mistakenly assumed to be part of the protocol. It
 
 There are many reasons why a block producer could choose to include transactions based on other criteria than the fee attached to it. In particular, they may accept off-band payments to include transactions. This is particularly helpful for users who seek to enter into long term agreements with block producers.
 
-## Corrolaries
+## Corollaries
 
 There are a few important corollaries that follow from properly understanding fee markets.
 
