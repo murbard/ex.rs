@@ -4,6 +4,7 @@ title: "Why I am joining the Tezos Foundation council"
 author: arthurb
 date: 2021-02-24 15:00:00 +0000
 categories: tezos
+image: assets/images/ursula.jpg
 featured: false
 hidden: false
 ---
