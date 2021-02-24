@@ -9,6 +9,8 @@ image: assets/images/ship.jpg
 
 Seven years ago, I embarked on a mission to bring about a new form of money: bound by algorithmic rules, and yet capable of evolution; decentralized, and yet capable of self-governance. Tezos has always been an ambitious idea. 
 
+![ship](/assets/images/ship.jpg)
+
 It has been a while since I worked on this project exclusively during my nights and weekends. Over the last four years, it has been rewarding to watch Tezos grow from an idea to a network used across the world. This outcome could not have been achieved without the dedicated commitment of countless people. Indeed, for a cryptocurrency to succeed, it must be a movement. The focus needs to be on its community, not on its founders, nor on some non-profit entity.
 
 Alas, the Tezos Foundation did historically attract attention to itself, which subtly, but indubitably, negatively affected the culture in the ecosystem — a phenomenon which persists to this day. I think I can help change that, which is why, on February 23rd, 2021, I reluctantly accepted a nomination to join the Tezos Foundation council and set for myself a term limit of one year. This is a decision that came after much deliberation and which I did not take lightly.
